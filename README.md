@@ -1,12 +1,13 @@
-# Pikachu Everywhere
-This is the code for the extension in [this tutorial](https://blog.shahednasser.com/chrome-extension-tutorial-replace-images-in-any-website-with-pikachu/).
+# Doge Begone
 
-# Install the extension
-1. Clone or download this repository.
-2. Enable developer mode in your chrome browser at chrome://extensions.
-3. Click "Load unpacked" and point to the root directory of the extension.
+Reverts the logo on Twitter.com to the original Twitter bird.
 
-# Credits
-1. Icons from [Free Icons PNG](www.freeiconspng.com)
-2. [Resize Image](https://resizeimage.net/) for resizing icons
-3. Pikachu images [API](https://some-random-api.ml/img/pikachu)
+## Installation
+
+1. Download the zip file
+2. Unzip the file
+3. Go to chrome://extensions/
+4. Turn on developer mode
+5. Click 'Load unpacked'
+6. Select the unzipped folder
+7. Go to Twitter.com - after a few seconds, the logo should be reverted

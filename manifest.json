@@ -1,20 +1,15 @@
 {
-  "name": "Pikachu Everywhere",
+  "name": "Doge Begone",
   "version": "0.1",
-  "description": "Replace every image with Pikachu images.",
-  "manifest_version": 2,
-  "content_scripts": [{
-      "matches": ["<all_urls>"],
+  "description": "Bring back the old Twitter logo on Twitter.com",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
       "all_frames": true,
-      "js":      ["assets/js/contentScript.js"]
-  }],
-  "permissions": [
-    "https://some-random-api.ml/*"
+      "js": ["assets/js/contentScript.js"]
+    }
   ],
-  "background": {
-    "scripts": ["assets/js/background.js"],
-    "persistent": false
-  },
   "icons": {
     "16": "assets/images/icon16.png",
     "32": "assets/images/icon32.png",
